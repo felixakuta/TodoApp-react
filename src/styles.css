@@ -1,0 +1,32 @@
+.app {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.input-container {
+  margin-bottom: 1rem;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #f0f0f0;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.todo-list li.completed {
+  text-decoration: line-through;
+  background-color: #dcdcdc;
+}
+
+.todo-list li button {
+  margin-left: 1rem;
+}
