@@ -40,7 +40,7 @@ function App() {
           type="text"
           value={todoText}
           onChange={(e) => setTodoText(e.target.value)}
-          placeholder="Enter a task"
+          placeholder="Enter any task"
         />
         <button onClick={handleAddTodo}>Add</button>
       </div>
